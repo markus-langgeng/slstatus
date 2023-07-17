@@ -67,8 +67,8 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ netspeed_tx,  " %sUp |",      "wlp3s0" },
 	{ netspeed_rx,  " %sDwn |",     "wlp3s0" },
-	{ wifi_perc,    " %s%%Wl |",   "wlp3s0" },
-	{ wifi_perc,    " %s%%E   ",    "eno1" },
+	{ wifi_perc,    " %s%%Wi |",   "wlp3s0" },
+	{ wifi_perc,    " %s%%Et  ",    "eno1" },
 	{ ram_perc,     " %s%%RAM |",   NULL },
 	{ cpu_perc,     " %s%%CPU   ",  NULL },
 	{ run_command,  " %s |",        "sb-volume" },
