@@ -67,12 +67,11 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ netspeed_tx,  " %sUp |",      "wlp3s0" },
 	{ netspeed_rx,  " %sDwn |",     "wlp3s0" },
-	{ wifi_perc,    " %s%%Wi |",   "wlp3s0" },
-	{ wifi_perc,    " %s%%Et   ",    "eno1" },
-	{ ram_perc,     " %s%%RAM |",   NULL },
-	{ cpu_perc,     " %s%%CPU   ",  NULL },
-	{ run_command,  " %s |",        "sb-volume" },
+	{ wifi_perc,    " %s%%    ",    "wlp3s0" },
+	{ ram_perc,     "%s%%RAM |",    NULL },
+	{ cpu_perc,     " %s%%CPU    ", NULL },
+	{ run_command,  "%s |",         "sb-volume" },
 	{ keymap,       " %s |",        NULL },
-	{ run_command,  " %s Tap   ",   "toggle-touchpad --state"},
-	{ datetime,     " %s ",         "%R | %a %d/%m/%Y" },
+	{ run_command,  " %s Tap    ",  "toggle-touchpad --state"},
+	{ datetime,     "%s  ",         "%A %Y-%m-%d %R" },
 };
