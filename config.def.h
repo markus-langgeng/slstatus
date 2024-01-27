@@ -70,6 +70,7 @@ static const struct arg args[] = {
 	{ wifi_perc,    " %s%%    ",    "wlp3s0" },
 	{ ram_perc,     "%s%%RAM |",    NULL },
 	{ cpu_perc,     " %s%%CPU    ", NULL },
+	{ run_command,  "%s",           "sb-record"},
 	{ run_command,  "%s |",         "sb-volume" },
 	{ keymap,       " %s |",        NULL },
 	{ run_command,  " %s Tap    ",  "toggle-touchpad --state"},
